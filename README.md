@@ -14,4 +14,5 @@ Other than that, this repo will consist of code - with some specific comments th
 <br>
 In very simple terms:
 The project is to download NYC taxi from the web, store it locally temporarily and then upload it to Google cloud storage. From where it will be used in making Datasets/tables/views and those will be used in dbt for analytics engineering. 
-Uptil making datasets/tables/views Airflow will be used primarily - in a container in Docker - Afterwards dbt on the googel cloud will be utilised.
+Uptil making datasets/tables/views Airflow + Pythonic DAGS -with a little bit of SQL code will be used primarily; run in Docker container
+Afterwards dbt on the googel cloud will be utilised.
